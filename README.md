@@ -1,7 +1,6 @@
 ﻿# [cortex M3](https://github.com/sochub/CM3)
 [![sites](SoC/SoC.png)](http://www.qitas.cn) 
-#### 归属：[arm](https://github.com/sochub/arm) 
-#### 架构：[cortex M](https://github.com/sochub/CM)
+#### 归属：[cortex M](https://github.com/sochub/CM)
 
 ## [架构描述](https://github.com/sochub/CM3/wiki) 
 
