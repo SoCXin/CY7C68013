@@ -12,7 +12,10 @@ Cortex M3首次在内核上集成了嵌套向量中断控制器（NVIC），中�
 
 Cortex-M3处理器支持2种工作模式：线程模式和处理模式。在复位时处理器进入“线程模式”，异常返回时也会进入该模式，特权和用户（非特权）模式代码能够在“线程模式”下运行。
 
-[![sites](SoC/Cortex-M3.png)](https://developer.arm.com/ip-products/processors/cortex-m/cortex-m3) 
+[![sites](SoC/Cortex-M3.png)](https://developer.arm.com/ip-products/processors/cortex-m/cortex-m3)
+
+Cortex-M3提供了多种调试模型和调试组件，新的CoreSight调试架构包括调试接口协议、总线协议、对调试组件的控制、安全特性、跟踪接口等。
+
 ### [收录资源](https://github.com/sochub/CM3)
 
 * [文档](docs/)
