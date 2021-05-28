@@ -1,31 +1,35 @@
-﻿# [cortex M3](https://github.com/sochub/CM3)
-[![sites](SoC/SoC.png)](http://www.qitas.cn) 
-#### 厂商：[arm](https://github.com/sochub/arm)
-#### 归属：[cortex M](https://github.com/sochub/CM)
-## [架构描述](https://github.com/sochub/CM3/wiki) 
+﻿# [CY7C68013A](https://github.com/SoCXin/CY7C68013A)
 
-Cortex-M3采用ARMv7-M架构，它包括所有的16位Thumb指令集和基本的32位Thumb-2指令集架构，Cortex-M3处理器不能执行ARM指令集。
+[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-Cortex-M3采用哈佛结构，并选择了适合于微控制器应用的三级流水线（取指，解码，执行），但增加了分支预测功能，可以预取分支目标地址的指令，使分支延迟减少到一个时钟周期。支持指令总线（I-code）和数据总线（D-code）。
+* [CYPRESS](https://www.cypress.com/): [8051](https://github.com/SoCXin/8051)
+* [L3R5](https://github.com/SoCXin/Level): 48 MHz
 
-Cortex M3首次在内核上集成了嵌套向量中断控制器（NVIC），中断延迟只有12个时钟周期(ARM7需要24-42个周期)；Cortex-M3还使用尾链技术，使得背靠背（back-to-back）中断的响应只需要6个时钟周期(ARM7需要大于30个周期)。Cortex-M3采用了基于栈的异常模式，使得芯片初始化的封装更为简单。
+## [简介](https://github.com/SoCXin/CY7C68013A/wiki)
 
-Cortex-M3处理器支持2种工作模式：线程模式和处理模式。在复位时处理器进入“线程模式”，异常返回时也会进入该模式，特权和用户（非特权）模式代码能够在“线程模式”下运行。
+[CY7C68013A](https://github.com/SoCXin/CY7C68013A)
 
-[![sites](SoC/Cortex-M3.png)](https://developer.arm.com/ip-products/processors/cortex-m/cortex-m3)
+[![sites](docs/CY7C68013A.png)](https://www.st.com/zh/microcontrollers-microprocessors/CY7C68013Acb.html)
 
-Cortex-M3提供了多种调试模型和调试组件，新的CoreSight调试架构包括调试接口协议、总线协议、对调试组件的控制、安全特性、跟踪接口等。
+### 关键特性
 
-### [收录资源](https://github.com/sochub/CM3)
+* USB 2.0 USB IF High Speed
 
-* [文档](docs/)
-    * [Cortex-M3学习笔记](docs/Cortex-M3.pdf)
-* [资源](src/)
-    * [openCM3资源](src/openCM3)
+#### 封装规格
 
-### [相关产品](https://github.com/sochub)
+* SSOP56
+* QFN56 (8×8mm)
+* LQFP100 (14×20mm)
 
-* [STM32F1](https://github.com/sochub/STM32F1)
-* [GD32F1](https://github.com/sochub/AMD)
 
-###  [SoC资源平台](https://github.com/sochub)
+### [资源收录](https://github.com/SoCXin)
+
+* [参考资源](src/)
+* [参考文档](docs/)
+* [参考工程](project/)
+
+### [选型建议](https://github.com/SoCXin)
+
+[CY7C68013A](https://github.com/SoCXin/CY7C68013A)
+
+### [探索芯世界 www.SoC.xin](http://www.SoC.Xin)
