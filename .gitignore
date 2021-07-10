@@ -42,7 +42,7 @@ LICENSE*
 *.uvgu*
 .gitmodules
 # *.png
-*.jpg
+# *.jpg
 *.rst
 .travis.yml
 doc
@@ -53,16 +53,3 @@ Doxyfile
 **/*/README*
 *.so
 *.dcm
-*32f100*
-*32f101*
-*32f102*
-*32f105*
-*32f107*
-*32g*
-*32h*
-*32f7*
-*32f4*
-*32f3*
-*32f2*
-*32f0*
-*32l*
